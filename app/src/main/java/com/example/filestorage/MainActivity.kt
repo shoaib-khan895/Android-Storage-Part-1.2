@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        val file = "file.tx"
+        val file = "file.txt"
 
         btnWrite.setOnClickListener(){
             if(editText.text.toString().isBlank()){
